@@ -94,7 +94,14 @@ const IpoListing = () => {
               </div>
             </div>
 
-            <div className=" capitalize">{ipo.status}</div>
+            <div className="flex md:items-start items-end justify-between capitalize">
+              <span className="md:hidden font-medium text-black/50">
+                Status:
+              </span>
+              <div className="rounded-md p-2 bg-black/10 min-w-24 text-center">
+                {ipo.status}
+              </div>
+            </div>
           </Link>
         ))}
       </section>
