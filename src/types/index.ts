@@ -9,4 +9,6 @@ export interface IPO {
   issueSize: string;
   priceRange: string;
   minInvest: string;
+  status: "upcoming" | "open" | "closed" | "listed";
+  listedGains?: string
 }

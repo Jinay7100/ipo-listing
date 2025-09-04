@@ -6,22 +6,24 @@
     "endDate": "2025-09-12",
     "listingDate": "2025-09-19",
     "lots": 250,
-    "description": "Tech IPO; Rs 1,900 cr issue opening Sept 10–12, 2025.",
+    "description": "Lorem ipsum dolor sit amet, ea reprehenderit quia cum consequuntur deleniti rem odio enim sit corporis gailum est quisquam magni ea sequi maxime. Aut incidunt adipisci in fuga necessitatibus aut inventore enim.",
     "issueSize": "₹1,900 Cr",
-    "priceRange": "₹320–₹340",
-    "minInvest": "₹13,600"
+    "priceRange": "₹320 – ₹340",
+    "minInvest": "₹13,600",
+    "status": "upcoming"
   },
   {
     "id": 2,
-    "name": "Imagine Marketing (boAt)",
+    "name": "Imagine Marketing",
     "startDate": "2025-09-15",
     "endDate": "2025-09-17",
     "listingDate": "2025-09-24",
     "lots": 200,
     "description": "Consumer brand IPO approved by SEBI.",
     "issueSize": "₹2,000 Cr",
-    "priceRange": "₹350–₹370",
-    "minInvest": "₹14,800"
+    "priceRange": "₹350 – ₹370",
+    "minInvest": "₹14,800",
+    "status": "upcoming"
   },
   {
     "id": 3,
@@ -32,8 +34,9 @@
     "lots": 300,
     "description": "Fintech platform targeting $1B IPO.",
     "issueSize": "₹7,500 Cr",
-    "priceRange": "₹450–₹470",
-    "minInvest": "₹15,750"
+    "priceRange": "₹450 – ₹470",
+    "minInvest": "₹15,750",
+    "status": "upcoming"
   },
   {
     "id": 4,
@@ -44,8 +47,9 @@
     "lots": 100,
     "description": "NBFC IPO with ₹500 cr fresh issue + ₹1,700 cr OFS.",
     "issueSize": "₹2,200 Cr",
-    "priceRange": "₹290–₹310",
-    "minInvest": "₹12,400"
+    "priceRange": "₹290 – ₹310",
+    "minInvest": "₹12,400",
+    "status": "upcoming"
   },
   {
     "id": 5,
@@ -56,8 +60,9 @@
     "lots": 90,
     "description": "₹772 cr SME IPO.",
     "issueSize": "₹772 Cr",
-    "priceRange": "₹140–₹150",
-    "minInvest": "₹12,000"
+    "priceRange": "₹140 – ₹150",
+    "minInvest": "₹12,000",
+    "status": "closed"
   },
   {
     "id": 6,
@@ -68,8 +73,9 @@
     "lots": 85,
     "description": "₹126 cr SME IPO.",
     "issueSize": "₹126 Cr",
-    "priceRange": "₹120–₹130",
-    "minInvest": "₹11,700"
+    "priceRange": "₹120 – ₹130",
+    "minInvest": "₹11,700",
+    "status": "open"
   },
   {
     "id": 7,
@@ -80,8 +86,9 @@
     "lots": 70,
     "description": "Infrastructure SME IPO.",
     "issueSize": "₹400 Cr",
-    "priceRange": "₹150–₹160",
-    "minInvest": "₹12,800"
+    "priceRange": "₹150 – ₹160",
+    "minInvest": "₹12,800",
+    "status": "closed"
   },
   {
     "id": 8,
@@ -92,8 +99,9 @@
     "lots": 65,
     "description": "Engineering services IPO.",
     "issueSize": "₹350 Cr",
-    "priceRange": "₹135–₹145",
-    "minInvest": "₹11,600"
+    "priceRange": "₹135 – ₹145",
+    "minInvest": "₹11,600",
+    "status": "closed"
   },
   {
     "id": 9,
@@ -104,8 +112,9 @@
     "lots": 55,
     "description": "SME IPO in the paper manufacturing sector.",
     "issueSize": "₹220 Cr",
-    "priceRange": "₹100–₹110",
-    "minInvest": "₹11,000"
+    "priceRange": "₹100 – ₹110",
+    "minInvest": "₹11,000",
+    "status": "closed"
   },
   {
     "id": 10,
@@ -116,8 +125,9 @@
     "lots": 60,
     "description": "Industrial equipment SME IPO.",
     "issueSize": "₹275 Cr",
-    "priceRange": "₹120–₹130",
-    "minInvest": "₹12,000"
+    "priceRange": "₹120 – ₹130",
+    "minInvest": "₹12,000",
+    "status": "open"
   },
   {
     "id": 11,
@@ -128,80 +138,93 @@
     "lots": 75,
     "description": "Agrochemical SME IPO.",
     "issueSize": "₹180 Cr",
-    "priceRange": "₹90–₹100",
-    "minInvest": "₹9,000"
+    "priceRange": "₹90 – ₹100",
+    "minInvest": "₹9,000",
+    "status": "upcoming"
   },
   {
     "id": 12,
-    "name": "Rachit Prints",
-    "startDate": "2025-09-11",
-    "endDate": "2025-09-13",
-    "listingDate": "2025-09-20",
-    "lots": 80,
-    "description": "SME IPO in printing and packaging.",
-    "issueSize": "₹250 Cr",
-    "priceRange": "₹110–₹120",
-    "minInvest": "₹12,000"
+    "name": "Zomato",
+    "startDate": "2021-07-14",
+    "endDate": "2021-07-16",
+    "listingDate": "2021-07-23",
+    "lots": 195,
+    "description": "Food delivery giant IPO.",
+    "issueSize": "₹9,375 Cr",
+    "priceRange": "₹72 – ₹76",
+    "minInvest": "₹14,820",
+    "status": "listed",
+    "listedGains": "+53%"
   },
   {
     "id": 13,
-    "name": "Goel Construction",
-    "startDate": "2025-09-12",
-    "endDate": "2025-09-14",
-    "listingDate": "2025-09-21",
-    "lots": 95,
-    "description": "Construction SME IPO.",
-    "issueSize": "₹300 Cr",
-    "priceRange": "₹150–₹160",
-    "minInvest": "₹13,500"
+    "name": "Nykaa",
+    "startDate": "2021-10-28",
+    "endDate": "2021-11-01",
+    "listingDate": "2021-11-10",
+    "lots": 12,
+    "description": "Beauty and lifestyle retailer IPO.",
+    "issueSize": "₹5,351 Cr",
+    "priceRange": "₹1,085 – ₹1,125",
+    "minInvest": "₹13,500",
+    "status": "listed",
+    "listedGains": "+96%"
   },
   {
     "id": 14,
-    "name": "Optivalue Tek Consulting",
-    "startDate": "2025-09-13",
-    "endDate": "2025-09-15",
-    "listingDate": "2025-09-22",
-    "lots": 100,
-    "description": "Tech consulting SME IPO.",
-    "issueSize": "₹500 Cr",
-    "priceRange": "₹200–₹210",
-    "minInvest": "₹14,000"
+    "name": "Paytm",
+    "startDate": "2021-11-08",
+    "endDate": "2021-11-10",
+    "listingDate": "2021-11-18",
+    "lots": 6,
+    "description": "India’s largest IPO at the time.",
+    "issueSize": "₹18,300 Cr",
+    "priceRange": "₹2,080 – ₹2,150",
+    "minInvest": "₹12,600",
+    "status": "listed",
+    "listedGains": "-27%"
   },
   {
     "id": 15,
-    "name": "Austere Systems",
-    "startDate": "2025-09-14",
-    "endDate": "2025-09-16",
-    "listingDate": "2025-09-23",
-    "lots": 110,
-    "description": "IT services SME IPO.",
-    "issueSize": "₹600 Cr",
-    "priceRange": "₹220–₹230",
-    "minInvest": "₹15,400"
+    "name": "LIC of India",
+    "startDate": "2022-05-04",
+    "endDate": "2022-05-09",
+    "listingDate": "2022-05-17",
+    "lots": 15,
+    "description": "India’s largest life insurer IPO.",
+    "issueSize": "₹21,000 Cr",
+    "priceRange": "₹902 – ₹949",
+    "minInvest": "₹14,235",
+    "status": "listed",
+    "listedGains": "-8%"
   },
   {
     "id": 16,
-    "name": "Vigor Plast India",
-    "startDate": "2025-09-15",
-    "endDate": "2025-09-17",
-    "listingDate": "2025-09-24",
-    "lots": 105,
-    "description": "Plastic manufacturing SME IPO.",
-    "issueSize": "₹310 Cr",
-    "priceRange": "₹140–₹150",
-    "minInvest": "₹12,600"
+    "name": "Delhivery",
+    "startDate": "2022-05-11",
+    "endDate": "2022-05-13",
+    "listingDate": "2022-05-24",
+    "lots": 30,
+    "description": "Logistics services provider IPO.",
+    "issueSize": "₹5,235 Cr",
+    "priceRange": "₹462 – ₹487",
+    "minInvest": "₹14,610",
+    "status": "listed",
+    "listedGains": "-1%"
   },
   {
     "id": 17,
-    "name": "Sharvaya Metals",
-    "startDate": "2025-09-16",
-    "endDate": "2025-09-18",
-    "listingDate": "2025-09-25",
-    "lots": 120,
-    "description": "Metal processing SME IPO.",
-    "issueSize": "₹400 Cr",
-    "priceRange": "₹160–₹170",
-    "minInvest": "₹13,600"
+    "name": "Vedant Fashions (Manyavar)",
+    "startDate": "2022-02-04",
+    "endDate": "2022-02-08",
+    "listingDate": "2022-02-16",
+    "lots": 17,
+    "description": "Ethnic wear brand IPO.",
+    "issueSize": "₹3,149 Cr",
+    "priceRange": "₹824 – ₹866",
+    "minInvest": "₹14,722",
+    "status": "listed",
+    "listedGains": "+8%"
   },
   {
     "id": 18,
@@ -212,8 +235,9 @@
     "lots": 140,
     "description": "Renewable energy IPO.",
     "issueSize": "₹1,200 Cr",
-    "priceRange": "₹320–₹330",
-    "minInvest": "₹14,800"
+    "priceRange": "₹320 – ₹330",
+    "minInvest": "₹14,800",
+    "status": "upcoming"
   },
   {
     "id": 19,
@@ -224,8 +248,9 @@
     "lots": 130,
     "description": "Pharmaceuticals SME IPO.",
     "issueSize": "₹900 Cr",
-    "priceRange": "₹250–₹260",
-    "minInvest": "₹13,000"
+    "priceRange": "₹250 – ₹260",
+    "minInvest": "₹13,000",
+    "status": "upcoming"
   },
   {
     "id": 20,
@@ -236,7 +261,8 @@
     "lots": 150,
     "description": "Retail grocery IPO.",
     "issueSize": "₹1,500 Cr",
-    "priceRange": "₹300–₹310",
-    "minInvest": "₹15,500"
+    "priceRange": "₹300 – ₹310",
+    "minInvest": "₹15,500",
+    "status": "upcoming"
   }
 ]
