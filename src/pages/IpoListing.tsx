@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react'
-import type { IPO } from '../types';
+import React, { useEffect, useState } from "react";
+import type { IPO } from "../types";
+import Pagination from "../components/Pagination";
+import { Link } from "react-router-dom";
 
 const IpoListing = () => {
     const [ipos, setIpos] = useState<IPO[]>([]);
+    const [currentPage, setCurrentPage] = useState(1);
 
     useEffect(() => {
         const fetchIPOs = async () => {
@@ -11,7 +14,7 @@ const IpoListing = () => {
                 if (!response.ok) {
                     throw new Error("Failed to fetch IPO data");
                 }
-                const data:IPO[] = await response.json();
+                const data: IPO[] = await response.json();
                 setIpos(data);
             } catch (error) {
                 console.error("Error fetching IPO data:", error);
@@ -20,43 +23,68 @@ const IpoListing = () => {
 
         fetchIPOs();
     }, []);
+
+    const totalPages = Math.ceil(ipos.length / 10);
+    const startIndex = (currentPage - 1) * 10;
+    const currentData = ipos.slice(startIndex, startIndex + 10);
+
     return (
         <div className="p-6">
-            <h1 className="text-2xl font-bold mb-4">IPO List</h1>
-            <div className="grid gap-4 md:grid-cols-4 bg-black/10 px-4 py-2 text-black/70">
-                <div className="">
-                    Whereas 
-                </div>
-                <div className="">
-                    Issue size
-                </div>
-                <div className="">
-                    Price Range
-                </div>
-                <div className="">
-                    Min Invest/qty
-                </div>
-            </div>
-            <div className="grid gap-4 md:grid-cols-4 px-4 py-4 border-l border-r border-black/10">
-                
-                {ipos.map((ipo) => (
-                    // <div key={ipo.id} className="border p-4 rounded-lg shadow">
-                    <><h2 className=" flex flex-col"><div className="font-bold text-lg">
-                        {ipo.name}</div>
-                        <div className="text-black/50">{ipo.startDate}-{ipo.endDate}</div>
-                    </h2>
-                        <p>{ipo.issueSize}</p>
-                        <p>{ipo.priceRange}</p>
-                        <div className='flex flex-col'>
-                            <p>{ipo.minInvest}</p>
-                        <p className='text-black/50'>{ipo.lots} shares</p>
-                        </div>
-                    </>
-                    // </div>
-                ))}
-            </div>
+        <h1 className="text-2xl font-bold mb-4">IPO List</h1>
+        <div className="hidden md:grid gap-4 md:grid-cols-4 bg-black/10 px-4 py-4 rounded-t-md text-black/70 font-medium mt-6">
+          <div>Whereas</div>
+          <div>Issue Size</div>
+          <div>Price Range</div>
+          <div>Min Invest / Qty</div>
         </div>
-  )
-}
+      
+        <section className="divide-y divide-black/10 border-l border-r border-black/10">
+          {currentData.map((ipo, i) => (
+            <Link
+            to={"/ipo/"+ipo.id}
+              key={ipo.id}
+              className={`grid gap-4 px-4 py-4 hover:bg-black/5 bg-white transition-colors md:grid-cols-4 ${
+                i === currentData.length - 1 ? "border-b border-black/10" : i === 0 ? "border-t border-black/10" : ""
+              }`}
+            >
+              <div className="flex flex-col">
+                <span className="font-semibold text-lg">{ipo.name}</span>
+                <span className="text-black/50 text-sm">
+                  {ipo.startDate} - {ipo.endDate}
+                </span>
+              </div>
+      
+              <div className="flex items-center md:justify-start justify-between">
+                <span className="md:hidden font-medium text-black/50">Issue Size:</span>
+                {ipo.issueSize}
+              </div>
+      
+              <div className="flex items-center md:justify-start justify-between">
+                <span className="md:hidden font-medium text-black/50">Price Range:</span>
+                {ipo.priceRange}
+              </div>
+      
+              <div className="flex md:items-start items-end justify-between">
+              <span className="md:hidden font-medium text-black/50">Minimum Investment:</span>
+                <div className="flex flex-col">
+                <span>{ipo.minInvest}</span>
+                <span className="text-black/50 text-sm">{ipo.lots} shares</span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </section>
+      
+        <div className="mt-6">
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={setCurrentPage}
+          />
+        </div>
+      </div>
+      
+    );
+};
 
-export default IpoListing
+export default IpoListing;
