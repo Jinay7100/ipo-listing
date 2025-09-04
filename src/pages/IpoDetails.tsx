@@ -81,7 +81,6 @@ export default function IPOPage() {
           />
           <div>
             <h1 className="text-lg font-semibold">{ipo?.name}</h1>
-            {/* <p className="text-sm text-gray-500">OYO Private Limited</p> */}
           </div>
         </div>
         <div className="flex  justify-end gap-4">
