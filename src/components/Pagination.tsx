@@ -14,7 +14,7 @@ const Pagination = ({
   const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
 
   return (
-    <div className="mt-4 flex justify-end gap-2">
+    <div className="mt-4 flex justify-center md:justify-end gap-2">
       <button
         className="flex items-center disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer disabled:hover:bg-transparent hover:bg-black/10 rounded-md px-4 py-2"
         onClick={() => onPageChange(currentPage - 1)}

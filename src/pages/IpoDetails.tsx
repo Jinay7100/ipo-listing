@@ -220,7 +220,7 @@ export default function IPOPage() {
                 : ipo?.status === "open"
                 ? 0
                 : ipo?.status === "closed"
-                ? 1
+                ? 4
                 : ipo?.status === "listed"
                 ? 5
                 : 0;
