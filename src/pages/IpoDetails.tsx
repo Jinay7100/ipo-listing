@@ -65,6 +65,17 @@ export default function IPOPage() {
       <div className="text-sm text-gray-500 mb-4">
         <Link to={"/"}>Home</Link> &gt; {ipo?.name}
       </div>
+      <div className="flex md:hidden  justify-between gap-4 mb-4">
+        <button
+          className="cursor-pointer text-indigo-950 hover:bg-black/10 rounded-2xl p-2 "
+          onClick={() => handleDownloadPDF()}
+        >
+          <FileDown className="size-6" />
+        </button>
+        <button className="bg-indigo-950 cursor-pointer text-white px-6 py-2 rounded-xl shadow hover:bg-indigo-950/90">
+          Apply now
+        </button>
+      </div>
       <div className="md:flex items-center justify-between bg-white p-4 rounded-2xl shadow-sm">
         <div className="flex items-center gap-3">
           <Link
@@ -83,7 +94,7 @@ export default function IPOPage() {
             <h1 className="text-lg font-semibold">{ipo?.name}</h1>
           </div>
         </div>
-        <div className="flex  justify-end gap-4">
+        <div className="md:flex hidden  justify-end gap-4">
           <button
             className="cursor-pointer text-indigo-950 hover:bg-black/10 rounded-2xl p-2 "
             onClick={() => handleDownloadPDF()}
@@ -127,10 +138,12 @@ export default function IPOPage() {
               {moment(ipo?.listingDate).format("DD MMM yyyy")}
             </p>
           </div>
-          <div>
-            <p className="text-gray-500 text-xs">Listed price</p>
-            <p className={`font-medium`}>{ipo?.issueSize}</p>
-          </div>
+          {ipo?.listedPrice && (
+            <div>
+              <p className="text-gray-500 text-xs">Listed price</p>
+              <p className={`font-medium`}>{ipo?.listedPrice}</p>
+            </div>
+          )}
           {ipo?.listedGains && (
             <div>
               <p className="text-gray-500 text-xs">Listing gains</p>

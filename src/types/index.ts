@@ -10,5 +10,6 @@ export interface IPO {
   priceRange: string;
   minInvest: string;
   status: "upcoming" | "open" | "closed" | "listed";
-  listedGains?: string
+  listedGains?: string;
+  listedPrice?: string;
 }

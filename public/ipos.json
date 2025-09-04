@@ -6,7 +6,7 @@
     "endDate": "2025-09-12",
     "listingDate": "2025-09-19",
     "lots": 250,
-    "description": "Lorem ipsum dolor sit amet, ea reprehenderit quia cum consequuntur deleniti rem odio enim sit corporis gailum est quisquam magni ea sequi maxime. Aut incidunt adipisci in fuga necessitatibus aut inventore enim.",
+    "description": "Lorem ipsum dolor sit amet, ea reprehenderit quia cum consequuntur deleniti.",
     "issueSize": "₹1,900 Cr",
     "priceRange": "₹320 – ₹340",
     "minInvest": "₹13,600",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "name": "Imagine Marketing",
+    "name": "Imagine Marketing (boAt)",
     "startDate": "2025-09-15",
     "endDate": "2025-09-17",
     "listingDate": "2025-09-24",
@@ -154,6 +154,7 @@
     "priceRange": "₹72 – ₹76",
     "minInvest": "₹14,820",
     "status": "listed",
+    "listedPrice": "₹110",
     "listedGains": "+53%"
   },
   {
@@ -168,6 +169,7 @@
     "priceRange": "₹1,085 – ₹1,125",
     "minInvest": "₹13,500",
     "status": "listed",
+    "listedPrice": "₹2,120",
     "listedGains": "+96%"
   },
   {
@@ -182,6 +184,7 @@
     "priceRange": "₹2,080 – ₹2,150",
     "minInvest": "₹12,600",
     "status": "listed",
+    "listedPrice": "₹1,580",
     "listedGains": "-27%"
   },
   {
@@ -196,6 +199,7 @@
     "priceRange": "₹902 – ₹949",
     "minInvest": "₹14,235",
     "status": "listed",
+    "listedPrice": "₹875",
     "listedGains": "-8%"
   },
   {
@@ -210,6 +214,7 @@
     "priceRange": "₹462 – ₹487",
     "minInvest": "₹14,610",
     "status": "listed",
+    "listedPrice": "₹456",
     "listedGains": "-1%"
   },
   {
@@ -224,6 +229,7 @@
     "priceRange": "₹824 – ₹866",
     "minInvest": "₹14,722",
     "status": "listed",
+    "listedPrice": "₹890",
     "listedGains": "+8%"
   },
   {
